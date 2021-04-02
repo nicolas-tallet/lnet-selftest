@@ -1,13 +1,18 @@
 # lnet-selftest
 
+## Purpose
+
 LNET Selftest Advanced Launcher Shell Script
 
 This script is a wrapper to the sequence of LNET Selftest commands.
 
-Main Features:
+## Features
+
 - Translation from Hostnames to IP addresses through NSLookup
 - Healthcheck of clients/servers through LNET Ping before startup
 - Automated startup/shutdown of LNET Selftest module on clients/servers
+
+## Usage
 
 ```
 Usage: $(basename ${BASH_SOURCE[0]}) -client-ips "HOST1 [HOST2]" -client-lnd-id "ID" -server-ips "HOST1 [HOST2]" -server-lnd-id "ID"
@@ -29,3 +34,7 @@ Additional Options:
 Purpose:
   Runs LNET Selftest Read / Write Performance Test between Clients and Servers
 ```
+
+## Reference
+
+LNET Selftest Wiki: https://wiki.lustre.org/LNET_Selftest
