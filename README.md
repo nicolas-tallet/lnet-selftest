@@ -13,7 +13,7 @@ This script is a wrapper to the sequence of LNET Selftest commands.
 ## Usage
 
 ```
-Usage: $(basename ${BASH_SOURCE[0]}) -client-ips "HOST1 [HOST2]" -client-lnd-id "ID" -server-ips "HOST1 [HOST2]" -server-lnd-id "ID"
+Usage: lnet-selftest -client-ips "HOST1 [HOST2]" -client-lnd-id "ID" -server-ips "HOST1 [HOST2]" -server-lnd-id "ID"
 
 Mandatory Options:
   -client-hosts "HOST1 [HOST2]"   Space-Separated List of Hostnames or IP Addresses for Clients
