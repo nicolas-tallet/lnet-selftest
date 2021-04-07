@@ -1,8 +1,6 @@
-# lnet-selftest
+# LNET Selftest Advanced Launcher
 
 ## Purpose
-
-LNET Selftest Advanced Launcher Shell Script
 
 This script is a wrapper to the sequence of LNET Selftest commands.
 
