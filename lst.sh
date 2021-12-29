@@ -199,7 +199,7 @@ trap "cleanup" EXIT SIGINT SIGTERM
 
 # LST Session
 export LST_SESSION="$$"
-printf "LST Session ID: [%s]" "${LST_SESSION}"
+printf "LST Session ID: [%s]\n" "${LST_SESSION}"
 lst new_session --force lst-${LST_SESSION} || { printf "[%s] Failed Creating LST Session: [%s]\n" "ERROR" "lst-${LST_SESSION}"; exit 1; }
 # LST Groups
 lst add_group servers "${server_nids[@]}" || { printf "[%s] Failed to Add LST Group: [%s]\n" "ERROR" "Servers"; exit 1; }
