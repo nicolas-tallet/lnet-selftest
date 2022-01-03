@@ -1,8 +1,8 @@
-# LNET Selftest Advanced Launcher
+# LNet Selftest Advanced Launcher
 
 ## Purpose
 
-This script is a wrapper to the sequence of LNET Selftest commands.
+This script is a wrapper to the sequence of LNet Selftest commands.
 
 ## Features
 
